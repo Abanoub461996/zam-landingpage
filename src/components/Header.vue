@@ -1,33 +1,52 @@
 <template>
   <div  class="container">
-    <h1>hello from the Header</h1>
-    
+    <div class= "header-section">
+      <div class= "header-section-title"> 
+        <h1>طور متجرك و وسع افاق تجارتك مع سوق تطبيقات زد</h1>
+        <p>طور تجارتك من خلال تطبيقات و حلول سوق تطبيقات زد التى تساعدك فى نمو ارباحك عبر إدارة عمليات متجرك بشكل فعال و احترافى</p>
+        <Button />
+      
+      </div>
+      <div class= "header-section-content">
+        <div class="slider-container">
+
+          <Circle />
+          <Square />
+        </div>  
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+import Button from './shared/Button.vue';
+import Circle from './shared/Circle';
+import Square from './shared/Square'
 export default {
   name: 'Header',
-  props: {
-    msg: String
+  components: {
+    Button,
+    Circle,
+    Square
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+.header-section-title{
+ text-align:center;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.header-section-content{
+  margin:4.5rem auto;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+.slider-container {
+  height:550px;
+  width:80%;
+  background-color:#8d5da7;
+  margin:0 auto;
+  position:relative;
+  border-radius:35px;
 }
-a {
-  color: #42b983;
-}
+
 </style>
