@@ -14,8 +14,20 @@
 <style>
 .card{
     display:flex;
+    background-color:#f7f7f7;
+    padding: 1rem .5rem;
+    border-radius:10px;
 }
 .card-img{
-    width:20%;
+    width: 55px;
+    height: 45px;
+    margin: 0 0 0 10px;
+}
+.card-header{
+    display:flex;
+    justify-content:space-between;
+}
+.card-content p{
+    font-size: x-small;
 }
 </style>

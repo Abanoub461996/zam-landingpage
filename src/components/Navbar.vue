@@ -19,21 +19,27 @@
     
   </div>
 </template>
+<script>
+
+</script>
 <style>
 .navbar{
   display:flex;
   justify-content:space-between;
   align-items: center;
+  margin:0.3rem 0;
 }
 .nav-links{
   width:50%;
   display:flex;
   justify-content:space-between;
+  cursor: pointer;
 }
 .nav-logo{
   display:flex;
   width: 12%;
   justify-content:center;
+  cursor: pointer;
 }
 .nav-logo figure{
   height:40px;

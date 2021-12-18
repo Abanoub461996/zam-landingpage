@@ -12,5 +12,6 @@ button{
     font-family: inherit;
     font-size: larger;
     margin:1rem auto;
+    cursor: pointer;
 }
 </style>
