@@ -1,4 +1,5 @@
 <template>
+<section id="services">
   <div class="services">
     <div class="services_content">
       <h2>كل ما تحتاجه لنمو متجرك فى مكان واحد</h2>
@@ -18,18 +19,24 @@
     <Button />
     </div>
     <div class="services_slider">
-      <div class="slider-container">
-
-          <Circle />
-          <Square />
+        <div class="slider-container">
+          <div>
+            <img src="../assets/apps-gif.gif" />
+          </div>
         </div> 
+        
+          <figure class="pattern-area">
+            <img src="../assets/Pattern.png" />
+          </figure>
+          <figure class="services-ellipse">
+            <img src="../assets/Ellipse.png" />
+          </figure>
     </div>
   </div>
+  </section>
 </template>
 <script>
 import Button from './shared/Button.vue';
-import Circle from './shared/Circle';
-import Square from './shared/Square';
 import Laptop from 'vue-material-design-icons/Laptop.vue';
 import CurrencyUsd from 'vue-material-design-icons/CurrencyUsd.vue';
 import ApplicationCogOutline from 'vue-material-design-icons/ApplicationCogOutline.vue';
@@ -40,8 +47,6 @@ export default {
   name: 'Services',
   components: {
     Button,
-    Circle,
-    Square,
     Laptop,
     CurrencyUsd,
     ApplicationCogOutline
@@ -55,16 +60,17 @@ export default {
   background-color:#f7f7f7;
   position: relative;
   z-index:-10;
-  padding:1rem;
+  padding: 4rem 1rem 1.5rem 1rem;
 }
 .services_content{
-  width:50%;
+  width:45%;
+  padding-bottom: 1.5rem;
 }
 .service_item{
   display:flex;
   justify-content:flex-start;
   align-items: center;
-  padding:1rem .5rem;
+  padding:.5rem;
 }
 .service_item .service-icon{
   border-radius:50%;
@@ -80,12 +86,33 @@ export default {
 }
 .services_slider{
   position:relative;
+  width: 700px;
 }
 .services_slider .slider-container{
-  height:550px;
-  width:550px;
-  background-color:#8d5da7;
   margin:0 auto;
+}
+
+.pattern-area{
+    position:absolute;
+    z-index:-1;
+    left:-40px;
+    top:-45px;
+}
+.pattern-area img{
+    width:100%;;
+    height:100%;
+    border-radius: 0;
+}
+.slider-container img{
   border-radius:35px;
+}
+.services-ellipse{
+    width:350px;
+    height:350px;
+    border-radius:50%;
+    position:absolute;
+    z-index: -1;
+    top:150px;
+    right: -55px;
 }
 </style>

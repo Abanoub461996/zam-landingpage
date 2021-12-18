@@ -2,19 +2,15 @@
 
   <div class ="container">
     <div class="navbar">
-    <div class="nav-logo">
-      <p><span>zid</span>App Market</p>
       <figure class="logo-img">
-        <img src="../assets/logo.png" />
+        <img src="../assets/zid-logo.png" />
       </figure>
-      
-    </div>
-    <ul class="nav-links">
-      <li class="nav-link">الرئيسية</li>
-      <li class="nav-link">التصنيفات</li>
-      <li class="nav-link">التطبيقات</li>
-      <li class="nav-link">طور تطبيق</li>
-    </ul>
+      <ul class="nav-links">
+        <li class="nav-link">الرئيسية</li>
+        <li class="nav-link">التصنيفات</li>
+        <li class="nav-link">التطبيقات</li>
+        <li class="nav-link">طور تطبيق</li>
+      </ul>
     </div>
     
   </div>

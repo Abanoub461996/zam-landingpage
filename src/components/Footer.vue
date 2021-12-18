@@ -2,13 +2,9 @@
   <footer>
     <div class="footer-content">
       <div class="footer-logo">
-        <div>
-          <p><span>zid</span>App</p>
-      <p> Market</p>
-        </div>
       
       <figure class="footer-img">
-        <img src="../assets/footer.png" />
+        <img src="../assets/footer-logo.png" />
       </figure>
       
       </div>
@@ -54,10 +50,6 @@ export default {
     display:flex;
     justify-content:center;
     width:150px;
-  }
-  .footer-img img{
-    height:70px;
-    width:70px;
   }
 
   .footer-logo p{

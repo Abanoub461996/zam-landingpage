@@ -1,4 +1,5 @@
 <template>
+<section id="special-apps">
     <div class="container">
     <div class="special-header">
         <h2>التطبيقات المميزة</h2>
@@ -15,6 +16,7 @@
     </div>
     
     </div>
+    </section>
 </template>
 
 <script>

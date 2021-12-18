@@ -19,6 +19,7 @@ import Footer from './components/Footer';
 import ChatProcessing from 'vue-material-design-icons/ChatProcessing.vue';
 import ArrowUpBold from "vue-material-design-icons/ArrowUpBold.vue";
 import './assets/styles.css';
+import './assets/wickedcss.min.css';
 
 export default {
   name: 'App',

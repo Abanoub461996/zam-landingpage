@@ -11,6 +11,12 @@ body {
     vertical-align: baseline;
     border:0;  
 }
+section{
+    margin:6rem 0;
+}
+section#special-apps{
+    margin-bottom: 3rem;
+}
 .container{
 width: 85%;
 margin: 0 auto;
@@ -20,13 +26,13 @@ li{
 }
 h1{
     color:#8d5da7;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 2.2em;
     padding:1rem;
 }
 h2{
     color:#8d5da7;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1.5em;
     padding:1rem;
 }
@@ -41,13 +47,14 @@ img {
     height:100%;
     width:100%;
 }
+
 footer{
     background-color:#8d5da7;
 }
 .circular-btn{
     position: fixed;
     z-index: 5;
-    bottom: 15px;
+    bottom: 0px;
     padding:1rem;
     background-color: inherit;
     cursor: pointer;
@@ -62,9 +69,12 @@ footer{
   align-items: center;
   justify-content: space-around;
 }
+.circular-btn:hover{
+    transform:scale(1.2)
+}
 .chat{
-    right:20px;
+    right:0px;
 }
 .to-top{
-    left:20px;
+    left:0px;
 }
